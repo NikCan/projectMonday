@@ -7,7 +7,7 @@ function App() {
     const maxValue = 5
     const [score, setScore] = useState<number>(0)
     const onClickInc = () => {
-        setScore(score < maxValue ? score + 1 : maxValue)
+        setScore(score < maxValue ? score + 1 : score)
     }
     const onClickReset = () => {
         setScore(0)
