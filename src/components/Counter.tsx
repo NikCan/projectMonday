@@ -11,8 +11,8 @@ export const Counter = (props: CounterPropsType) => {
 
     return (
         <div className={"counter"}>
-            <Button callBack={onClickInc} name={"inc"} disabled={score === maxValue && true}/>
-            <Button callBack={onClickReset} name={"reset"} disabled={score === 0 && true}/>
+            <Button callBack={onClickInc} name={"inc"} disabled={score === maxValue}/>
+            <Button callBack={onClickReset} name={"reset"} disabled={score === 0}/>
         </div>
     )
 }
