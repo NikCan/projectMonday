@@ -8,7 +8,8 @@ export const Button = (props: ButtonPropsType) => {
 
     return (
         <>
-            <button className={"button"} disabled={disabled} onClick={callBack}>{name}</button>
+            <button className={"button"} disabled={disabled}
+                    onClick={callBack}>{name}</button>
         </>
     )
 }
