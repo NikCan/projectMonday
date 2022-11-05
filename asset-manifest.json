@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/projectMonday/static/css/main.5cb010ed.css",
+    "main.js": "/projectMonday/static/js/main.fcf979c8.js",
+    "static/js/787.565293a5.chunk.js": "/projectMonday/static/js/787.565293a5.chunk.js",
+    "index.html": "/projectMonday/index.html",
+    "main.5cb010ed.css.map": "/projectMonday/static/css/main.5cb010ed.css.map",
+    "main.fcf979c8.js.map": "/projectMonday/static/js/main.fcf979c8.js.map",
+    "787.565293a5.chunk.js.map": "/projectMonday/static/js/787.565293a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb010ed.css",
+    "static/js/main.fcf979c8.js"
+  ]
+}
