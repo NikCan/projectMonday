@@ -1,10 +1,14 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .App {
     display: grid;
     grid-template-rows: 5fr 4fr;
     width: 500px;
     height: 400px;
-    margin: auto;
-    margin-top: 100px;
+    margin: 100px 25px;
     text-align: center;
     background-color: black;
     border-radius: 10px;
@@ -30,6 +34,17 @@
     justify-content: space-around;
 }
 
+.tuner {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    background-color: #61dafb;
+    border: 3px solid #61dafb;
+    border-radius: 10px;
+}
+
 .error {
     color: red;
     font-weight: bold;
@@ -39,4 +54,31 @@
     border-radius: 10px;
     margin: auto;
     font-size: 70px;
+}
+
+.inputValue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.inputValue input {
+    text-align: center
+}
+
+.message {
+    font-size: 25px;
+}
+
+.errorInput {
+    color: red;
+    border: red 3px solid;
+    outline: none;
+}
+
+.warning {
+    font-size: 45px;
+    color: red;
 }

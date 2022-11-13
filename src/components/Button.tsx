@@ -1,15 +1,18 @@
 type ButtonPropsType = {
     name: string
     callBack: () => void
-    disabled: boolean
+    disabled?: boolean
+    className: string
 }
 export const Button = (props: ButtonPropsType) => {
-    const {name, callBack, disabled} = props
+    const {className, name, callBack, disabled} = props
 
     return (
         <>
-            <button className={"button"} disabled={disabled}
-                    onClick={callBack}>{name}</button>
+            <button className={className}
+                    disabled={disabled}
+                    onClick={callBack}
+            >{name}</button>
         </>
     )
 }
